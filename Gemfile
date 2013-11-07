@@ -33,11 +33,14 @@ group :doc do
 end
 
 group :development do
-	gem 'rspec-rails', '2.14.0'
+	gem 'rspec-rails'
+	#gem 'capybara'
 end
 
 group :test do
-	gem 'rspec', '2.14.0'
+  gem 'rspec'
+  gem 'spork'
+  #gem 'webrat'
 end
 
 # Use ActiveModel has_secure_password
