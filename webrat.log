@@ -1,0 +1,23 @@
+# Logfile created on 2013-11-11 00:07:45 +0000 by logger.rb/31641
+D, [2013-11-11T00:07:45.456560 #3148] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:08:47.862130 #5260] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:08:47.953135 #5260] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:09:46.353475 #5116] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:09:46.370476 #5116] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:09:46.388477 #5116] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+D, [2013-11-11T00:09:46.423479 #5116] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+D, [2013-11-11T00:10:27.631836 #5380] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:10:27.648837 #5380] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:10:27.666838 #5380] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+D, [2013-11-11T00:10:27.699840 #5380] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+D, [2013-11-11T00:10:27.717841 #5380] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:13:12.993294 #8096] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:13:13.024296 #8096] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:13:13.041297 #8096] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+D, [2013-11-11T00:13:13.059298 #8096] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+D, [2013-11-11T00:13:13.076299 #8096] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:15:43.742917 #6488] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {}
+D, [2013-11-11T00:15:43.775919 #6488] DEBUG -- : REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+D, [2013-11-11T00:15:43.792920 #6488] DEBUG -- : REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+D, [2013-11-11T00:15:43.810921 #6488] DEBUG -- : REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+D, [2013-11-11T00:15:43.828922 #6488] DEBUG -- : REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
