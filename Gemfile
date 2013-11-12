@@ -17,8 +17,6 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'protected_attributes'
 
-gem 'strong_parameters' 
-
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
