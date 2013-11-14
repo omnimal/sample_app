@@ -55,7 +55,7 @@ group :test do
   gem 'rspec'
   gem 'spork'
   gem 'webrat'
-  gem 'factory_girl_rails'
+  gem 'factory_girl'
 end
 
 # Use ActiveModel has_secure_password
