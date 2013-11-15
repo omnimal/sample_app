@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.8'
+# gem 'sqlite3'
 
 gem 'gravatar_image_tag'
 
@@ -38,24 +38,27 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :production do
-    gem 'pg'
-    gem 'rails_12factor'
-end
-
 group :development do
-	gem 'rspec-rails'
+	gem 'sqlite3'
   gem 'annotate'
   gem 'faker'
+  gem 'rspec-rails'
 	# gem 'sqlite3', '1.3.8'
 	#gem 'capybara'
 end
 
 group :test do
-  gem 'rspec'
+  gem 'sqlite3'
+  gem 'rspec-rails'
   gem 'spork'
   gem 'webrat'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
+  gem 'turn', :require => false
+end
+
+group :production do
+    gem 'pg'
+    gem 'rails_12factor'
 end
 
 # Use ActiveModel has_secure_password
