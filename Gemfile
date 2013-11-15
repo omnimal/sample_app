@@ -41,7 +41,7 @@ end
 group :development do
 	gem 'sqlite3'
   gem 'annotate'
-  gem 'faker'
+  
   gem 'rspec-rails'
 	# gem 'sqlite3', '1.3.8'
 	#gem 'capybara'
@@ -50,6 +50,7 @@ end
 group :test do
   gem 'sqlite3'
   gem 'rspec-rails'
+  gem 'faker'
   gem 'spork'
   gem 'webrat'
   gem 'factory_girl_rails'
