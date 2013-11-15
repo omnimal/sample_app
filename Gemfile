@@ -50,7 +50,7 @@ end
 group :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'faker'
+  # gem 'faker'
   gem 'spork'
   gem 'webrat'
   gem 'factory_girl_rails'
