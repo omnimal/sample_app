@@ -33,33 +33,34 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# gem 'railties'
+
+# gem 'activesupport'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
 group :development do
-	gem 'sqlite3'
-  gem 'annotate'
-  
-  gem 'rspec-rails'
-	# gem 'sqlite3', '1.3.8'
-	#gem 'capybara'
+  gem 'sqlite3'
+  gem 'rspec-rails' #, '2.6.1', :require => 'rspec-rails'
+  # gem 'annotate', '2.4.0'
+  # gem 'faker', '0.3.1'
+  # gem 'test-unit'
 end
 
 group :test do
   gem 'sqlite3'
-  gem 'rspec-rails'
-  # gem 'faker'
-  gem 'spork'
-  gem 'webrat'
-  gem 'factory_girl_rails'
+  gem 'rspec-rails' #, '2.6.1', :require => 'rspec-rails'
+  # gem 'test-unit'
+  gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0'
   gem 'turn', :require => false
 end
 
 group :production do
     gem 'pg'
-    gem 'rails_12factor'
 end
 
 # Use ActiveModel has_secure_password
